@@ -19,12 +19,14 @@
         $testo_censurato = str_replace($censura, '***', $variabile_testo);
     ?>
 
+    <!-- Testo originale -->
     <p><?php echo $variabile_testo; ?></p>
     
     <h2><?php echo $lunghezza_testo; ?></h2>
 
     <hr>
 
+    <!-- Testo censurato -->
     <p><?php echo $testo_censurato ?></p>
 </body>
 </html>
